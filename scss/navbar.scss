@@ -1,0 +1,82 @@
+@import "footer";
+
+.navbar {
+    display: grid;
+    height: 5%;
+    background-color: #9C640C;
+    width: 100%;
+    grid-template-areas: "titulo facturas locales nosotros contacto"; }
+  
+  .titulo {
+    display: grid;
+    grid-area: titulo;
+    text-align: left;
+    align-items: left; }
+  
+  .nuestrasFacturasNav {
+    display: grid;
+    grid-area: facturas;
+    text-align: center;
+    align-items: center;
+    text-decoration: none !important; }
+  
+  .nuestrasFacturasNav a {
+    color: #f8f5fc;
+    text-decoration: none !important; }
+  
+  .nuestrasFacturasNav:hover {
+    background-color: beige;
+    text-decoration: none !important;
+    size: auto !important; }
+  
+  .nuestrasFacturasNav:hover a {
+    color: black; }
+  
+  .localesNav {
+    display: grid;
+    grid-area: locales;
+    text-align: center;
+    align-items: center;
+    height: 100%; }
+  
+  .localesNav a {
+    color: #f8f5fc; }
+  
+  .localesNav:hover {
+    background-color: beige; }
+  
+  .localesNav a:hover {
+    color: blueviolet;
+    text-decoration: none !important; }
+  
+  .nosotrosNav {
+    display: grid;
+    grid-area: nosotros;
+    text-align: center;
+    align-items: center; }
+  
+  .nosotrosNav a {
+    color: #f8f5fc; }
+  
+  .nosotrosNav:hover {
+    background-color: beige; }
+  
+  .nosotrosNav a:hover {
+    color: blueviolet;
+    text-decoration: none !important; }
+  
+  .contactoNav {
+    display: grid;
+    grid-area: contacto;
+    text-align: center;
+    align-items: center; }
+  
+  .contactoNav a {
+    color: #f8f5fc; }
+  
+  .contactoNav:hover {
+    background-color: beige; }
+  
+  .contactoNav a:hover {
+    color: blueviolet;
+    text-decoration: none !important; }

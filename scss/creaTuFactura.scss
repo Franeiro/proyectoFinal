@@ -1,0 +1,254 @@
+@import "footer";
+
+
+.containerCrea {
+    display: grid;
+    width: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr ;
+    grid-template-areas: "tituloCrea" "caracteristicas" "display" "nombre";
+    height: auto;
+    width: auto;
+    background-color: #ffffff;
+    }
+  
+  .tituloCrea {
+    display: grid;
+    width: 100vw;
+    grid-area: tituloCrea; }
+  
+  .containerCaracteristicas {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    flex-direction: row;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    height: auto;
+    justify-content: center;
+    grid-area: caracteristicas; }
+  
+  .tipoDeFactura,
+  .relleno,
+  .topping {
+    display: grid;
+    padding: 2%;
+    text-align: center;
+     }
+  
+     
+  
+  .titulosCrea
+  {
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  .displayEmojis {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    justify-content: space-around;
+    padding: 3%;
+    grid-area: display;
+    border-radius: 15px; }
+  
+    .displayEmojis img
+    {
+      border-radius: 20px;
+      width: 170px;
+      justify-content: center;
+      text-align: center;
+    }
+  
+  .emojiFactura,
+  .emojiRelleno,
+  .emojiTopping {
+    display: flex-block;
+    flex-basis: 5%;
+    border-radius: 15px; }
+  
+  .nombreFactura {
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+     }
+  
+  .inputFactura {
+    width: 100%;
+    text-align: center; }
+  
+  .botonEnviar {
+    display: flex-block;
+    justify-content: center;
+    align-content: center;
+    width: 40vw;
+    flex-direction: row;
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
+    text-align: center;
+    margin: auto; }
+  
+  .modal {
+    background-color: #fda5fd; }
+  
+  
+  .form
+  {
+    width: 50%;
+    position: relative;
+    height: 70px;
+    overflow: hidden;
+  }
+  
+  .form input
+  {
+    width: 100%;
+    height: 100%;
+    color: #595f6e;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+  }
+  
+  .form label
+  {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+  }
+  
+  .form label::after
+  {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom:  3px solid cyan;
+    transform:  translateX(-100%);
+    transition: all 0.3s ease;
+  }
+  
+  .content-name
+  {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+  }
+  
+  .form input:focus + .label-name .content-name, .form input:valid + .label-name .content-name
+  {
+    transform: translateY(-150%);
+    font-size: 15px ;
+    color: cyan;
+  }
+  
+  .form input:focus + .label-name::after, .form input:valid + .label-name::after
+  {
+    transform: translateX(0%);
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 576px) {
+    .list-unstyled {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 2.5; } 
+    
+      /*
+    
+  
+    .tipoDeFactura
+    {
+      display: grid;
+      grid-area: tipoDeFactura;
+    }
+    .relleno
+    {
+      display: grid;
+      grid-area: relleno;
+    }
+    .topping
+    {
+      display: grid;
+      grid-area: topping;
+    }
+  
+    .emojiactura
+    {
+      display: grid;
+      grid-area: eFactura;
+    }
+    .emojiRelleno
+    {
+      display: grid;
+      grid-area: eRelleno;
+    }
+    .emojiTopping
+    {
+      display: grid;
+      grid-area: eTopping;
+    }
+  
+    .nombreFactura
+    {
+      display: grid;
+      grid-area: nombre;
+    }
+  
+    .botonEnviar
+    {
+      display: grid;
+      grid-area: enviar;
+    }
+  
+    */
+  
+    .containerCaracteristicas
+    {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .displayEmojis
+    {
+      display: flex;
+      flex-direction: column;
+      padding-top: 250px;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 25px;
+    }
+  
+    .displayEmojis img 
+    {
+      padding-bottom: 10px;
+    }
+  
+  .nombreFactura, .botonEnviar
+  {
+    display: block;
+    padding-top: 250px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  
+  
+  
+    }

@@ -1,0 +1,216 @@
+@import "footer";
+
+
+@media screen and (min-width: 769px)
+{
+
+.containerCatering {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "a1 a2 a3"
+ "a4 a5 a6"
+ "a7 a8 a9"
+ "a10 a11 a12"; }
+
+.area1 {
+  grid-area: a1;
+  justify-content: center;
+  align-content: center;
+  font-size: 30px;
+  border-radius: 150px;
+  background-color: rgb(235, 186, 222); }
+
+.area2 {
+  grid-area: a2; }
+
+.area3 {
+  grid-area: a3;
+  text-align: center;
+  font-size: 17px;
+  background-color: pink; 
+  border-radius: 150px;
+  justify-content: center;
+  align-content: center; }
+
+.area4 {
+  grid-area: a4;
+  text-align: center;
+  
+  font-size: 17px;
+  background-color: pink; 
+  border-radius: 150px;
+  justify-content: center;
+  align-content: center; }
+
+.area5 {
+  grid-area: a5; }
+
+.area5 img, .area2 img, .area8 img, .area11 img  
+{
+  border-radius: 50px;
+} 
+
+.area6 {
+  grid-area: a6;
+  justify-content: center;
+  align-content: center;
+  font-size: 30px;
+  border-radius: 150px;
+  background-color: rgb(235, 186, 222); }
+
+.area7 {
+  grid-area: a7;
+  justify-content: center;
+  align-content: center;
+  font-size: 30px;
+  border-radius: 150px;
+  background-color: rgb(235, 186, 222); }
+
+.area8 {
+  grid-area: a8; }
+
+.area9 {
+  grid-area: a9;
+  text-align: center;
+  font-size: 17px;
+  background-color: pink; 
+  border-radius: 150px;
+  border-radius: 150px;
+  justify-content: center;
+  align-content: center; }
+
+.area10 {
+  grid-area: a10;
+  text-align: center;
+  font-size: 17px;
+  background-color: pink; 
+  border-radius: 150px;
+  justify-content: center;
+  align-content: center; }
+
+.area11 {
+  grid-area: a11; }
+
+.area12 {
+  grid-area: a12;
+  justify-content: center;
+  align-content: center;
+  font-size: 30px;
+  border-radius: 150px;
+  background-color: rgb(235, 186, 222); }
+
+.area1 {
+  display: grid;
+  border: solid white; }
+
+.area2 {
+  display: grid;
+  border: solid white; }
+
+.area3 {
+  display: grid;
+  border: solid white; }
+
+.area4 {
+  display: grid;
+  border: solid white; }
+
+.area5 {
+  display: grid;
+  border: solid white; }
+
+.area6 {
+  display: grid;
+  border: solid white; }
+
+.area7 {
+  display: grid;
+  border: solid white; }
+
+.area8 {
+  display: grid;
+  border: solid white; }
+
+.area9 {
+  display: grid;
+  border: solid white; }
+
+.area10 {
+  display: grid;
+  border: solid white; }
+
+.area11 {
+  display: grid;
+  border: solid white; }
+
+.area12 {
+  display: grid;
+  border: solid white; }
+
+.imagenCatering {
+  height: 100%;
+  width: 100%; }
+
+.accordion
+{
+  display: none;
+}
+
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px)
+{
+  .containerCatering
+  {
+    display: none
+  }
+
+  .accordion
+  {
+    display:block;
+  }
+
+  .fotoAcordion
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+  }
+
+  .mb-0
+{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.title
+{
+  padding-bottom: 0PX;
+}
+
+ 
+}
+
+
+
+@media (max-width: 576px) {
+  .list-unstyled {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.5; } }
+
+@media (max-width: 576px) {
+  .list-unstyled {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.5; } }

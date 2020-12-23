@@ -1,0 +1,167 @@
+@import "footer";
+
+.containerCombos {
+    width: 90%;
+    height:70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    grid-template-columns: 25%;
+    column-gap: 1rem;
+    
+   
+   }
+  
+  .cartaCombos {
+    display: grid;
+    justify-content: space-between;
+    grid-template-rows: 200px 200px 80px;
+    border-radius: 18px;
+    text-align: center;
+    grid-template-areas: "img" "txt" "stats";
+    background: white;
+    box-shadow: 2px 2px 15px;
+    text-align: center; }
+  
+  .imagenCombos {
+    grid-area: img;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px; }
+  
+  .textoCombos {
+    grid-area: txt;
+    margin: 16px;
+    font-size: 14px;
+    color: grey; }
+  
+  .textoCombos p {
+    padding-top: 5%; }
+  
+  .statsCombos {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #EA30DC; }
+  
+  .statsCombos .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    font-family: roboto; }
+  
+  .statsCombos .tipo {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase; }
+  
+  .statsCombos .valor {
+    font-size: 22px;
+    font-weight: 500; }
+  
+  .statsCombos .borde {
+    border-right: 1px solid black;
+    border-left: 1px solid black; }
+  
+  .cartaCombos:hover {
+    transform: scale(1.02); }
+  
+  .container-Combo
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+     
+    
+  } 
+  
+  .gridCombo
+  {
+    text-align: center;
+    padding-top: 2%;
+    border: 1px solid black ;
+    /*background-image: url(/imagenes/breakfast.png); */
+    height: auto;
+  }
+  
+  
+  
+  #imgCombo{
+    height: auto;
+    width: 100%;
+  }
+  
+  
+  hr
+  {
+    background-color: pink;
+    width: 60%;
+    margin: auto;
+  }
+  
+  
+  .hrIndex
+  {
+    background-color: pink;
+    width: 200px;
+  }
+  
+  
+  @media (max-width: 576px) {
+    .list-unstyled {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 2.5; } 
+    
+    .container-Combo
+    {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .gridCombo, .gridCombo ul 
+    {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    }
+  
+  
+  @media (max-width:1000px)
+  {
+    .containerCombos
+    {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+  
+  
+   @media (max-width: 768px)
+   
+   {
+  
+    .wrapper
+    {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      padding-left: 5%;
+    }
+  
+   }
+  

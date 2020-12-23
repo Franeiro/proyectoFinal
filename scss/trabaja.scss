@@ -1,0 +1,72 @@
+@import "footer";
+
+.trabajaContenido {
+    background-color: #ffffff;
+    width: 95vw;
+    height: auto;
+    align-content: center;
+    padding-left: 15px;
+    text-align: center; }
+  
+  .trabajaIcon img {
+    padding-top: 15px; }
+  
+  .trabajaFrase {
+    font-family: inherit;
+    font-weight: 400;
+    padding: 15px; }
+  
+  .trabajaFrase p {
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    align-items: center; }
+  
+  .trabajaFrase__Autor {
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 20px; }
+  
+  .trabajaFrase__Autor--puesto {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: cursive;
+    color: grey; }
+  
+  .containerFoto {
+    width: 100vw; }
+  
+  .containerFoto img {
+    width: 100%; }
+  
+  .imagenTrabaja h3 {
+    padding-top: 25vh; }
+  
+  .contenido {
+    background-color: pink;
+    text-align: center; }
+  
+  .cargaTuCV {
+    text-align: center;
+    padding-bottom: 20px; }
+  
+   #CV
+   {
+     background-color: white;
+     font-family:'Quicksand', sans-serif ;
+   } 
+  
+  @media (max-width: 576px) {
+    .list-unstyled {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 2.5; } }
+  
+  @media (max-width: 576px) {
+    .list-unstyled {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 2.5; } }

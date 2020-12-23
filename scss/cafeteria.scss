@@ -1,0 +1,115 @@
+@import "footer";
+
+
+@media (min-width: 576px)
+
+{
+
+  
+.containerCafe {
+  display: flex;
+  padding: 3rem;
+  width: 75%; }
+
+.cartaCafe {
+  height: 350px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background:white;
+  border: 4px solid pink;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: -1rem 0 3rem;
+  position: relative;
+  transition: 0.2s;
+  justify-content: center; }
+
+.cartaCafe:hover {
+  transform: translateY(-1rem); }
+
+.cartaCafe:focus-within ~ .cartaCafe,
+.cartaCafe:hover ~ .cartaCafe {
+  transform: translateX(130px); }
+
+.cartaCafe:not(:first-child) {
+  margin-left: -130px; }
+
+.textoCafe {
+  margin-bottom: auto; }
+
+.textoCafe p {
+  font-size: 14px;
+  margin: 0 0 1rem;
+  color: #4b4141; }
+
+.textoCafe h2 {
+  font-size: 20px;
+  margin: .25rem 0 auto;
+  text-decoration: none;
+  color: inherit;
+  border: 0;
+  display: inline-block; }
+
+.textoCafe h2:hover {
+  text-shadow: none;
+  background-clip: text; }
+
+}
+
+
+
+@media (max-width: 576px) {
+  .list-unstyled {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.5; } 
+
+    .containerCafe
+    {
+      display: flex;
+      flex-direction: column; 
+      align-content: center;
+      justify-content: center; 
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      align-items: center;
+       justify-content: space-around;  
+     }
+
+     .cartaCafe
+     {
+      height: 350px;
+      width: 100%;
+      flex:1;
+      display: flex;
+      flex-direction: column;
+      background:white;
+      border: 4px solid pink;
+      padding: 1.5rem;
+      border-radius: 16px;
+      position: relative;
+      justify-content: center;
+     }
+
+     .cartaCafe img 
+     {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+     }
+
+     .cartaCafe h2
+     {
+       text-align: center;
+     }
+
+
+
+
+
+  }

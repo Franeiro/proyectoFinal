@@ -1,0 +1,280 @@
+
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: black; }
+  
+    /*FOOTER*/
+  
+   footer
+    {
+      background-color: #F9CCCA;
+    }
+  
+  .fa:hover {
+    opacity: 0.7;
+    color: black;
+    text-decoration: none; }
+  
+  #navbarIndex {
+    height: 100%; }
+  
+  .navbar-brand {
+    font-size: 25px;
+    color: black;
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: 700;}
+  
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    justify-content: space-between; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    }
+  
+  #navBrand {
+    width: 70%; }
+  
+  .navbar-toggler {
+    background-color: white; }
+  
+  #navBoton {
+    background-color: white; }
+  
+  #navIcon {
+    color: black; }
+  
+  .containerIndex {
+    display: grid;
+    width: 100%;
+    grid-template-areas: "arma crea catering";
+    height: 100vh; }
+  
+  .divArmaTuPedido {
+    display: grid;
+    grid-area: arma;
+    border: 1px solid pink;
+    background-color: #FBF8EF;
+    justify-items: center;
+    text-align: center; }
+  
+  .divArmaTuPedido :hover {
+    text-decoration: none !important; }
+  
+  .divCreaTuFactura {
+    display: grid;
+    grid-area: crea;
+    border: 1px solid pink;
+    background-color: #F7F2E0;
+    justify-items: center;
+    text-align: center; }
+  
+  .divCreaTuFactura :hover {
+    text-decoration: none !important; }
+  
+  .divCatering {
+    display: grid;
+    grid-area: catering;
+    border: 1px solid pink;
+    background-color: #FBF8EF;
+    justify-items: center;
+    text-align: center; }
+  
+  .divCatering :hover {
+    text-decoration: none !important; }
+  
+  #titulosIndex {
+    font-size: 30px;
+    text-decoration: none; }
+  
+  .containerCuadros {
+    background-image: url(/imagenes/breakfast.png);
+    display: grid;
+    width: 100%;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "arma trabaja club  cafe"; }
+  
+  .containerCuadros :hover {
+    text-decoration: none !important; }
+  
+  .armaTuCombo {
+    font-size: 25px;
+    display: grid;
+    grid-area: arma;
+    justify-items: center;
+    text-align: center;
+    background-color: #F5A9D0;
+    align-items: center; 
+    border: 3px solid pink;
+    border-radius: 10px;
+    height: 200px;
+    background-color:white;
+    margin-top: 100px;}
+  
+  .imagen1 {
+    display: grid;
+    grid-area: img1;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    width: 100%; }
+  
+  .trabaja {
+    font-size: 25px;
+    color:black;
+    display: grid;
+    grid-area: trabaja;
+    justify-items: center;
+    text-align: center;
+    align-items: center; 
+    border: 3px solid pink;
+    border-radius: 10px;
+    height: 200px;
+    background-color:white;
+    margin-top: 100px;
+    margin-left: 10px;
+    
+  }
+  
+  .clubFacturapp {
+    font-size: 25px;
+    display: grid;
+    grid-area: club;
+    justify-items: center;
+    text-align: center;
+    background-color: #F8E0EC;
+    align-items: center; 
+    border: 3px solid pink;
+    border-radius: 10px;
+    height: 200px;
+    background-color:white;
+    margin-top: 100px;
+    margin-left: 10px;}
+  
+  .imagen2 {
+    display: grid;
+    grid-area: img2;
+    justify-items: center;
+    text-align: center;
+    background-color: grey;
+    align-items: center; }
+  
+  .cafeteria {
+    font-size: 25px;
+    display: grid;
+    grid-area: cafe;
+    justify-items: center;
+    text-align: center;
+    background-color: #FBEFF5;
+    align-items: center; 
+    border: 3px solid pink;
+    border-radius: 10px;
+    height: 200px;
+    background-color:white;
+    margin-top: 100px;
+    margin-left: 10px;}
+  
+  
+  
+  
+  .twitter {
+    display: grid;
+    grid-area: tw; }
+  
+  .facebook {
+    display: grid;
+    grid-area: fb; }
+  
+  .instragram {
+    display: grid;
+    grid-area: ig; }
+  
+  .linkedin {
+    display: grid;
+    grid-area: link; }
+  
+   .textoCuadros
+   {
+     color: rgb(255, 117, 140);
+   } 
+  
+   .textoCuadros:hover
+   {
+     color: black;
+   }
+  
+  @media (max-width: 576px) {
+    .containerCuadros {
+      
+      display: grid;
+      width: 100%;
+      height: auto;
+      padding-bottom: 100px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas: "arma"
+   "trabaja"
+   "club"
+   "cafe"; }
+    .titulo {
+      width: 100%; }
+     
+      .imagenIndex
+      {
+        width: 100vw;
+      }
+    
+    .navbar {
+      display: grid;
+      height: auto;
+      background-color: #9C640C;
+      width: 100%;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "titulo"
+   "facturas locales nosotros contacto"; }
+    .containerIndex {
+      display: grid;
+      width: 100%;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: "arma" "crea" "catering";
+      height: auto; }
+    .list-unstyled {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 2.5; } }
+  
+  @media (max-width: 576px) {
+    .list-unstyled {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 2.5; } }
+  
+  @media (max-width: 576px) {
+    .list-unstyled {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 2.5; } }
+  
+  @media (max-width: 576px) {
+    .list-unstyled {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 2.5; } }
+  
+  @media (max-width: 576px) {
+    .list-unstyled {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 2.5; } }
